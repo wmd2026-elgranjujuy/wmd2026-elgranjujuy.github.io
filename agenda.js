@@ -27,7 +27,7 @@ const EVENT_NAME = "Día Mundial Metropolitano 2026";
 const TIMEZONE = "America/Argentina/Jujuy";
 // Dirección pública de la página (se usa en el link de Google Calendar).
 // Si queda vacía, se usa la dirección desde donde se abre la página.
-const PUBLIC_URL = "https://analiaperullini.github.io/diamundialmetropolitano/";
+const PUBLIC_URL = "https://wmd2026-elgranjujuy.github.io/";
 
 const AGENDA = [
   {
