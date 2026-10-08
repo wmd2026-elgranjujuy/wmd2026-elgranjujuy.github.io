@@ -224,7 +224,7 @@ a.chip:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(13,27,46
   flex-wrap: wrap;
   background: #fde6f1; border: 1px solid #f7b6d4; border-left: 4px solid var(--magenta);
   border-radius: 10px;
-  padding: 16px 20px; margin: -16px 0 36px;
+  padding: 16px 20px; margin: 4px 0 36px;
 }
 .register-box > div { min-width: 0; flex: 1 1 260px; }
 .register-title {

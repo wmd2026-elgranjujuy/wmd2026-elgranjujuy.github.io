@@ -48,18 +48,16 @@ const AGENDA = [
     address: "Bahía Blanca esq. Pte. Perón",
     city: "San Salvador de Jujuy",
     mapsQuery: "Centro Cultural Éxodo Jujeño, San Salvador de Jujuy",
-    summary: "Jornada abierta a toda la comunidad: funcionarios, especialistas y organizaciones de la región y de todo el país.",
     sessions: [
       {
         start: "09:00", end: "09:30",
-        title: "Acreditación y bienvenida",
+        title: "Acreditación",
         tag: "Recepción"
       },
       {
         start: "09:30", end: "09:45",
-        title: "Palabras de apertura",
-        tag: "Apertura",
-        description: "Bienvenida a cargo del Intendente de San Salvador de Jujuy, Raúl Jorge, e Intendentes de El Gran Jujuy."
+        title: "Apertura",
+        description: "Bienvenida a cargo del Intendente de la ciudad de San Salvador de Jujuy, Arq. Raúl Jorge, e Intendentes del Gran Jujuy."
       },
       {
         start: "09:45", end: "10:15",
@@ -67,28 +65,28 @@ const AGENDA = [
         tag: "Conferencia",
         highlight: true,
         speakers: [
-          { name: "Laura Valdés Cano", role: "Metropolis" }
+          { name: "Laura Valdés Cano", role: "Metrópolis" }
         ],
         moderatorLabel: "Presenta",
-        moderator: "Gustavo Muro, Secretario de Desarrollo Humano de San Salvador de Jujuy"
+        moderator: "Lic. Gustavo Muro, Secretario de Desarrollo Humano de la Municipalidad de San Salvador de Jujuy"
       },
       {
         start: "10:15", end: "11:10",
-        title: "Panel: Avances institucionales en tres experiencias metropolitanas (2016-2026)",
+        title: "Panel: avances institucionales en tres experiencias metropolitanas (2016-2026)",
         tag: "Panel",
         speakers: [
-          { name: "Gabriela Solano", role: "Coordinadora del ECAM de Santa Fe" },
+          { name: "Gabriela Solano", role: "Coordinadora del ECAM, Santa Fe" },
           { name: "Matías Dalla Torre", role: "UNICIPIO, Mendoza" },
-          { name: "Bruno Jerez", role: "Coordinador General de Articulación de El Gran Jujuy" }
+          { name: "Bruno Jerez", role: "Coordinador General de Articulación del Gran Jujuy" }
         ],
         moderator: "Ciudadanía Metropolitana"
       },
       {
         start: "11:10", end: "12:00",
-        title: "Panel: La importancia de la coordinación legislativa en la gestión metropolitana",
+        title: "Panel: la importancia de la coordinación legislativa en la gestión metropolitana",
         tag: "Panel",
         speakers: [
-          { name: "Gastón Millon", role: "Presidente del Concejo Deliberante de San Salvador de Jujuy" },
+          { name: "Gastón Millón", role: "Presidente del Concejo Deliberante de San Salvador de Jujuy" },
           { name: "Sergio Basile", role: "Presidente del Concejo Municipal de Santa Fe" },
           { name: "Gastón Chiesa", role: "Fundación Río Cuarto 2030", talk: "Experiencia del Parlamento del Gran Río Cuarto" }
         ],
@@ -96,11 +94,10 @@ const AGENDA = [
       },
       {
         start: "12:00", end: "12:20",
-        title: "Conversatorio: la cooperación internacional como incentivo para el desarrollo de la gobernanza metropolitana",
+        title: "Ponencia de cierre",
         tag: "Conversatorio",
-        subtitle: "Ponencia de cierre de las actividades de la mañana",
         speakers: [
-          { name: "María Peix", role: "AMB – Àrea Metropolitana de Barcelona" }
+          { name: "María Peix", role: "AMB – Área Metropolitana de Barcelona", talk: "La cooperación internacional como incentivo para el desarrollo de la gobernanza metropolitana" }
         ],
         moderatorLabel: "Modera",
         moderator: "Claudio Augugliaro"
@@ -112,31 +109,30 @@ const AGENDA = [
       },
       {
         start: "13:00", end: "14:00",
-        title: "Panel: Marcos normativos hacia una institucionalidad metropolitana",
+        title: "Panel: marcos normativos hacia una institucionalidad metropolitana",
         tag: "Panel",
         speakers: [
           { name: "Rafael Forero", role: "ONU-Hábitat", talk: "Lineamiento para una legislación metropolitana" },
           { name: "Carolina Basualdo", role: "Presidenta de la Comisión de Asuntos Municipales de la Cámara de Diputados de la Nación", talk: "Consideraciones sobre el Proyecto de Ley Federal de Áreas Metropolitanas" },
-          { name: "Agustín Romani Norri", role: "Legislador de la Provincia de Tucumán", talk: "Los proyectos de regulación en las provincias argentinas" },
-          { name: "Hernán Reyes", role: "Director General del Consejo del Plan Estratégico de Buenos Aires", talk: "El impacto de la ley de Enfoque Metropolitano de las Políticas Públicas en la relación interjurisdiccional" }
+          { name: "Agustín Romano", role: "Legislador de la Provincia de Tucumán", talk: "Los proyectos de regulación en las provincias argentinas" },
+          { name: "Hernán Reyes", role: "Director General del Consejo del Plan Estratégico de Buenos Aires", talk: "El impacto de la ley de enfoque metropolitano de las políticas públicas en la relación interjurisdiccional" }
         ],
         moderator: "Facundo Cabral, IBATIN – Fundación Metropolitana"
       },
       {
         start: "14:00", end: "15:00",
-        title: "Panel: Desafíos de la coordinación multinivel en áreas metropolitanas para el desarrollo de políticas públicas",
+        title: "Panel: desafíos de la coordinación multinivel en áreas metropolitanas para el desarrollo de políticas públicas",
         tag: "Panel",
         speakers: [
           { name: "Héctor Floriani", role: "Director General del ECOM Rosario", talk: "Transporte metropolitano en el AM Rosario" },
           { name: "Paula Andrea Pacios Zalazar", role: "Directora del Área Metropolitana del Valle de Aburrá", talk: "El Valle de Aburrá, un modelo de gobernanza metropolitana para el desarrollo sostenible" },
-          { name: "Adriana Díaz", role: "Secretaria de Planificación y Ambiente de la Municipalidad de San Salvador de Jujuy" },
-          { name: "Mariana Zoricich", role: "Coordinadora General de Planificación Territorial, Municipalidad de Salta" }
+          { name: "Adriana Díaz", role: "Secretaria de Planificación y Ambiente de la Municipalidad de San Salvador de Jujuy" }
         ],
         moderator: "Carolina Osores, Universidad Nacional de Jujuy"
       },
       {
         start: "15:00", end: "16:00",
-        title: "Panel: La cooperación internacional y el impulso a la gestión de las metrópolis",
+        title: "Panel: la cooperación internacional y el impulso a la gestión de las metrópolis",
         tag: "Panel",
         speakers: [
           { name: "Natalia Blejman", role: "Coordinadora General de Presidencia del Ente Metropolitano de Córdoba", talk: "Internacionalización de la experiencia Córdoba" },
