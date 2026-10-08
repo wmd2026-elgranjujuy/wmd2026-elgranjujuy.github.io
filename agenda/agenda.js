@@ -59,7 +59,7 @@ const AGENDA = [
         start: "09:30", end: "09:45",
         title: "Palabras de apertura",
         tag: "Apertura",
-        description: "Bienvenida a cargo del Intendente de San Salvador de Jujuy, Raúl Eduardo Jorge, e intendentes de El Gran Jujuy."
+        description: "Bienvenida a cargo del Intendente de San Salvador de Jujuy, Raúl Jorge, e Intendentes de El Gran Jujuy."
       },
       {
         start: "09:45", end: "10:15",
