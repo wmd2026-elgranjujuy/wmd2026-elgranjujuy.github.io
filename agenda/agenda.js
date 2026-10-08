@@ -136,18 +136,18 @@ const AGENDA = [
         tag: "Panel",
         speakers: [
           { name: "Natalia Blejman", role: "Coordinadora General de Presidencia del Ente Metropolitano de Córdoba", talk: "Internacionalización de la experiencia Córdoba" },
-          { name: "Gastón Gutiérrez", role: "Presidente del Instituto del Valle Inferior de Río Negro", talk: "La experiencia del Consorcio GIRSU Patagónico (Viedma–Carmen de Patagones)" },
-          { name: "Belén Pastrana", role: "Secretaría de Relaciones Internacionales de la Provincia de Jujuy" },
+          { name: "Gastón Gutiérrez", role: "Presidente del Instituto del Valle Inferior del Río Negro", talk: "La experiencia del Consorcio GIRSU Patagónico (Viedma–Carmen de Patagones)" },
+          { name: "Belén Pastrana", role: "Secretaría de Relaciones Internacionales de la Provincia de Jujuy", talk: "El poder de la Paradiplomacia Provincial: Jujuy como actor global" },
           { name: "Jorge Alonzo Guirapoigua Cortez", role: "Asesor del Gobierno Municipal de Porongo", talk: "Los avances en coordinación metropolitana en Santa Cruz de la Sierra, Bolivia" }
         ],
         moderator: "Bautista Pino, RIL"
       },
       {
         start: "16:00",
-        title: "Cierre de la jornada: Compromiso Metropolitano al 2036",
+        title: "Cierre de la jornada: compromiso Metropolitano al 2036",
         tag: "Cierre",
         highlight: true,
-        description: "Los intendentes de El Gran Jujuy ratifican un nuevo Compromiso Metropolitano al 2036.",
+        description: "Los intendentes del Gran Jujuy ratifican un nuevo Compromiso Metropolitano al 2036.",
         items: ["Lectura y firma de la Declaración de Jujuy sobre Gobernanza Metropolitana, con instituciones de nivel local, nacional e internacional."]
       }
     ]
