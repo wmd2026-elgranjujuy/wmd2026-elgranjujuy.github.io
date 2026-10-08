@@ -167,7 +167,7 @@ const AGENDA = [
     sessions: [
       {
         start: "08:00", end: "12:00",
-        title: "Relanzamiento del Parlamento Metropolitano de El Gran Jujuy",
+        title: "Relanzamiento del Parlamento Metropolitano del Gran Jujuy",
         tag: "Parlamento Metropolitano",
         subtitle: "Taller sobre Gobernanza Metropolitana",
         description: "Relanzamiento del Parlamento Metropolitano y taller de trabajo sobre gobernanza metropolitana para funcionarios y líderes de la comunidad."
